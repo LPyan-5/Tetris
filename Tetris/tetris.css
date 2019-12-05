@@ -1,0 +1,76 @@
+body{
+    background-image: url('b2.jpg');
+
+    position: absolute;
+    top: 5%;
+    left:30%;
+}
+
+div{
+        width: 32px;
+        height:32px;
+        float:left;
+        
+        
+        
+        
+    
+}
+h1{
+    color: yellow;
+    position: relative;
+    left: 150px;
+    
+    
+    
+
+    
+}
+p{
+    position: relative;
+    color: yellow;
+    font-size: 15px;
+    left: 255%;
+}
+#pause{
+    background-image: url('pause.png');
+    background-size: contain;
+    position: absolute;
+    overflow: hidden;
+    left: 80px;
+    top: 65px;
+    height: 640px;
+    width: 320px;
+    border: 1px solid red;
+    z-index: 1;
+    display: none;
+}
+
+#gameover{
+    background-image: url('giphy.gif');
+    background-size: contain;
+    position: absolute;
+    overflow: hidden;
+    left: 80px;
+    top: 65px;
+    height: 640px;
+    width: 320px;
+    border: 1px solid yellow;
+    background-color: black;
+    z-index: 1;
+    display: none;
+}
+
+#enter{
+    background-image: url('startnewgame.png');
+    background-size: contain;
+    position: absolute;
+    overflow: hidden;
+    left: 80px;
+    top: 65px;
+    height: 640px;
+    width: 320px;
+    border: 1px solid red;
+    z-index: 1;
+    display: none;
+}
