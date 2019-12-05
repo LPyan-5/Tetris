@@ -1,5 +1,6 @@
 body{
-    background-image: url('b2.jpg');
+    background-image: url('images/b2.jpg');
+
     position: absolute;
     top: 5%;
     left:30%;
@@ -10,13 +11,19 @@ div{
         height:32px;
         float:left;
         
-           
+        
+        
+        
+    
 }
 h1{
     color: yellow;
     position: relative;
     left: 150px;
     
+    
+    
+
     
 }
 p{
@@ -26,7 +33,7 @@ p{
     left: 255%;
 }
 #pause{
-    background-image: url('pause.png');
+    background-image: url('images/pause.png');
     background-size: contain;
     position: absolute;
     overflow: hidden;
@@ -40,7 +47,7 @@ p{
 }
 
 #gameover{
-    background-image: url('giphy.gif');
+    background-image: url('images/giphy.gif');
     background-size: contain;
     position: absolute;
     overflow: hidden;
@@ -55,7 +62,7 @@ p{
 }
 
 #enter{
-    background-image: url('startnewgame.png');
+    background-image: url('images/startnewgame.png');
     background-size: contain;
     position: absolute;
     overflow: hidden;
